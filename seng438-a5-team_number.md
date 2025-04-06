@@ -2,12 +2,13 @@
 
 **Lab. Report \#5 – Software Reliability Assessment**
 
-| Group \#:       |   |
-|-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Group \#:  28        |
+| ----------------- |
+| Student Names:      |
+| John            |   
+| Mark            |   
+| Ron             |   
+| Lana            |   
 
 # Introduction
 
