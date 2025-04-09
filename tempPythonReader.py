@@ -17,20 +17,20 @@ def read_python_file(file_path):
         return newContent
 
 # Read the data from 'failure_data_set/csr2.dat' and print its contents
-readData = read_python_file('/Users/johnmbp/Documents/GitHub/seng438-a5-someone735-main/SYS2Target.DAT')
+readData = read_python_file('SYS2Target.DAT')
 readData.pop(-1)
 summationOfTime = []
-differenceBetweenPoints = []
+# differenceBetweenPoints = []
 for i in range(len(readData)):
     if i == 0:
-        summationOfTime.append(int(readData[i][1]))
+        summationOfTime.append(int(readData[i][1])/10)
         # differenceBetweenPoints.append(int(readData[i][1]))
     else:
-        summationOfTime.append((int(readData[i][1])+int(summationOfTime[-1])))
+        summationOfTime.append((int(readData[i][1])+int(summationOfTime[-1]))/10)
         # differenceBetweenPoints.append((int(readData[i][1])-int(readData[i-1][1])))
         
 print("Summation of Time: ", summationOfTime)
-print("Difference Between Points: ", differenceBetweenPoints)
+# print("Difference Between Points: ", differenceBetweenPoints)
 
 # Create DataFrames from summationOfTime and differenceBetweenPoints
 df_summation = pd.DataFrame(summationOfTime, columns=["Summation of Time"])
