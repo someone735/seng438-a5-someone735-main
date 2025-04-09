@@ -23,10 +23,10 @@ summationOfTime = []
 # differenceBetweenPoints = []
 for i in range(len(readData)):
     if i == 0:
-        summationOfTime.append(int(readData[i][1])/10)
+        summationOfTime.append(int(readData[i][1]))
         # differenceBetweenPoints.append(int(readData[i][1]))
     else:
-        summationOfTime.append((int(readData[i][1])+int(summationOfTime[-1]))/10)
+        summationOfTime.append((int(readData[i][1])+int(summationOfTime[-1])))
         # differenceBetweenPoints.append((int(readData[i][1])-int(readData[i-1][1])))
         
 print("Summation of Time: ", summationOfTime)
