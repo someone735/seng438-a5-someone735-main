@@ -16,7 +16,12 @@
 
 # Assessment Using Reliability Growth Testing 
 
+Plot of the original data
+
+
 # Assessment Using Reliability Demonstration Chart 
+
+
 
 # 
 
