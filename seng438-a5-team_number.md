@@ -54,6 +54,11 @@ Here is the reliability graph of IFRGSB (F, C) model alone with original failure
 ![bbzx](https://github.com/user-attachments/assets/60ef5cfd-3741-40bb-8065-1563aec756c7)
 
 
+By analyzing the reliability graph that was from our data, we know that we have 367 cumulative failure counts. These failure counts occured in the span 73 weeks. By doing (367/73), we get 5.02 failure rate. Now we just need to set the intensity target to 4.00 or something lower. This will give us a visual on how each model predicts and how long till we reach the failure target
+![jjj](https://github.com/user-attachments/assets/feae00ef-f610-4d2a-9521-317d8d457fcf)
+
+
+
 # Assessment Using Reliability Demonstration Chart 
 MTTFmin original (MTTFmin = 1500000)
 
