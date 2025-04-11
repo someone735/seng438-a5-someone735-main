@@ -78,6 +78,7 @@ MTTFmin doubled (MTTFmin = 3000000)
 # 
 
 # Comparison of Results
+In part 1, the Reliabilty Growth Testing shows that the ... In part 2, the Reliability Demostration Charts shows that the system only requires more testing if the MTTFmin of the same is very large. However, the system can be considered acceptable at normal MTTFmin values.
 
 # Discussion on Similarity and Differences of the Two Techniques
 
