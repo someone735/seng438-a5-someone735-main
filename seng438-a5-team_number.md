@@ -28,15 +28,15 @@ Going to the model comparison tab, we can see a sorted table. We select to sort 
 ![afoaifwn](https://github.com/user-attachments/assets/127f19bb-4fe8-4f60-82e0-765eee1b0260)
 
 
-by sorting it, we see that ----- and ----- have the highest log-likelihood with our original failure data.
+by sorting it, we see that DW3 (F, C) and IFRGSB (F, C) have the highest log-likelihood with our original failure data.
 ![ss](https://github.com/user-attachments/assets/72943855-dab1-4091-963a-d5bf6145d1dc)
 
 
-Here is the graph of _____ alone with our base failure data
+Here is the graph of IFRGSB (F, C) alone with our base failure data
 ![ggfa](https://github.com/user-attachments/assets/ca8dd264-0da6-46e4-95cf-df4f9ef2b362)
 
 
-Here is the graph of _____ alone with our base failure data
+Here is the graph of DW3 (F, C) alone with our base failure data
 ![sx z](https://github.com/user-attachments/assets/4fbef495-0a5c-4d97-bcec-2e9d38f09d0e)
 
 
@@ -46,11 +46,11 @@ This is the failure intensity and reliablilty graph as well as the two chosen pr
 ![ggasd](https://github.com/user-attachments/assets/8ba13b57-f883-4a03-9942-91e6191ab809)
 
 
-Here is the reliability graph of ____ model alone with original failure data 
+Here is the reliability graph of DW3 model alone with original failure data 
 ![bhxcv](https://github.com/user-attachments/assets/fcbc965b-19cf-4345-9465-0343d1f8fc82)
 
 
-Here is the reliability graph of ____ model alone with original failure data 
+Here is the reliability graph of IFRGSB (F, C) model alone with original failure data 
 ![bbzx](https://github.com/user-attachments/assets/60ef5cfd-3741-40bb-8065-1563aec756c7)
 
 
