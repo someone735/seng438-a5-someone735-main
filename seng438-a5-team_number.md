@@ -78,15 +78,18 @@ Here is our RDC with a doubled MTTFmin (MTTFmin = 3000000)
 # 
 
 # Comparison of Results
-In part 1, based on our failure intensity graph, we can infer that as time increases, the instensity of failures decrease. This suggests that over time, the system produces failures less and less the longer it is executed. In part 2, the Reliability Demostration Charts shows that the system only requires more testing if the MTTFmin of the same is very large. However, the system can be considered acceptable at normal MTTFmin values.
+In part 1, based on our failure intensity graph, we can infer that as time increases, the instensity of failures decrease. This suggests that over time, the system produces failures less and less the longer it is executed. Since both models for predicting failure instensity came to the same conclusion, we can assume that this assumption is true. In part 2, the Reliability Demostration Charts shows that the system only requires more testing if the MTTFmin of the same is very large. However, the system can be considered acceptable at normal MTTFmin values. In conclusion, our failure intensity graphs show that the hypothetical system improves the longer it is executed and our Reliability Demonstration Chart indicate the system only requires more testing at large MTTFmin values and is considered acceptable at normal conditions.  
 
 # Discussion on Similarity and Differences of the Two Techniques
 Both reliability growth testing and the reliability demonstration chart try to find out how reliable a system is based on failure data, but they have different ways to approach the problem. They both share a common goal, which is helping engineers understand whether a system is meeting its reliability goals and if more testing is required. Both use plots to visualize failures and they require failure data collected during integration testing. Reliability growth testing, focuses on tracking improvements in reliability over time, its more detailed and provides metrics such as failure rate, mean time to failure, and reliability curves and supports model selection and comparison. While RDC is simpler, it is an excel based tool that helps determine if a system meets a minimum reliability requirement, it is better used for determining whether the system is good enough to move forward.  While growth testing requires more structured data and offers in depth analysis, RDC is easier to use with basic failure time inputs and is great for fast visualizing.
 
 # How the team work/effort was divided and managed
+- Mark/Ivan - Part 1
+- John/Lana - Part 2
+- Together - Lab Report
 
 # 
 
 # Difficulties encountered, challenges overcome, and lessons learned
-
+  One of the difficulties that we encountered in this assignment was that due to part one requiring either a Windows or Linux operating system to function, two of our group members were unable to help in part 1. We overcame this by alloting the work for part 1 to be done by members with a Windows operating system and for the rest of the work to split evenly.
 # Comments/feedback on the lab itself
