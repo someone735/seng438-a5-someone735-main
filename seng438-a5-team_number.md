@@ -11,7 +11,7 @@
 | Lana            |   
 
 # Introduction
-
+In this lab, we got the chance to work with two different techniques to assess how reliable a system is: reliability growth testing and the Reliability Demonstration Chart (RDC). The idea was to take real failure data from a hypothetical system and see what we could learn from it using these two techniques. With reliability growth testing, we used a tool called C-SFRAT to look at how the system’s reliability changed over time, how long it could run before failing (MTTF), and how reliable it was overall. Then, with the RDC tool, we took a more straightforward approach, using failure times to check if the system met a minimum reliability requirement. 
 
 
 # Assessment Using Reliability Growth Testing 
