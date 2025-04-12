@@ -92,5 +92,6 @@ Both reliability growth testing and the reliability demonstration chart try to f
 
 # Difficulties encountered, challenges overcome, and lessons learned
   One of the difficulties that we encountered in this assignment was that due to part one requiring either a Windows or Linux operating system to function, two of our group members were unable to help in part 1. We overcame this by alloting the work for part 1 to be done by members with a Windows operating system and for the rest of the work to split evenly.
+  Another difficulty we encountered was which dataset we should be using as they were many failure reports and raw data files we could choose from. Ultimately, we choose to use the file J5.DAT for our values as it was a raw dataset that we could easily transfer into testing. 
 # Comments/feedback on the lab itself
 The lab was a great learning experience, especially because it allowed us to apply theoretical concepts using real tolls and data. It was helpful to see how different techniques works on different purposes and can lead to different insights. Some clear instructions or examples on how to set up the tools and how to format the data do C-SFART would have made the assignment easier and less time consuming. Otherwise, the lab was well structured and helped improving our understanding of reliability assessment in practical way.
