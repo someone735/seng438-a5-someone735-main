@@ -81,6 +81,7 @@ MTTFmin doubled (MTTFmin = 3000000)
 In part 1, the Reliabilty Growth Testing shows that the ... In part 2, the Reliability Demostration Charts shows that the system only requires more testing if the MTTFmin of the same is very large. However, the system can be considered acceptable at normal MTTFmin values.
 
 # Discussion on Similarity and Differences of the Two Techniques
+Both reliability growth testing and the reliability demonstration chart try to find out how reliable a system is based on failure data, but they have different ways to approach the problem. They both share a common goal, which is helping engineers understand whether a system is meeting its reliability goals and if more testing is required. Both use plots to visualize failures and they require failure data collected during integration testing. Reliability growth testing, focuses on tracking improvements in reliability over time, its more detailed and provides metrics such as failure rate, mean time to failure, and reliability curves and supports model selection and comparison. While RDC is simpler, it is an excel based tool that helps determine if a system meets a minimum reliability requirement, it is better used for determining whether the system is good enough to move forward.  While growth testing requires more structured data and offers in depth analysis, RDC is easier to use with basic failure time inputs and is great for fast visualizing.
 
 # How the team work/effort was divided and managed
 
